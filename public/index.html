@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>shurl</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
@@ -11,14 +17,24 @@
     </header>
     <main>
       <form id="form">
-        <label for="url">URL</label>
-        <input name="url" id="url" placeholder="http://www.xyz.com" />
-        <label for="slug">Slug</label>
-        <input
-          name="slug"
-          id="slug"
-          placeholder="Enter Custom Slug ( Optional )"
-        />
+        <div class="url-container">
+          <label id="urlLabel" for="url">URL</label>
+          <input
+            name="url"
+            id="url"
+            autocomplete="off"
+            placeholder="http://www.xyz.com"
+          />
+        </div>
+        <div class="slug-container">
+          <label id="slugLabel" for="slug">Slug</label>
+          <input
+            name="slug"
+            id="slug"
+            autocomplete="off"
+            placeholder="Enter Custom Slug ( Optional )"
+          />
+        </div>
         <button type="submit">Submit</button>
       </form>
       <div id="container"></div>

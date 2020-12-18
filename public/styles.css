@@ -1,0 +1,101 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.shadow {
+  -moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+}
+
+body {
+  padding: 48px;
+  background-color: #171717;
+}
+
+h1 {
+  color: #fec92d;
+  font-weight: 700;
+  font-size: 64px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+input,
+input:focus,
+input:active,
+input::selection {
+  outline: none;
+  height: 48px;
+  width: 325px;
+  padding: 8px;
+  border-radius: 12px;
+  border-width: 0px;
+  background-color: #343434;
+  color: #fec92d;
+  letter-spacing: 0.75px;
+  @apply shadow;
+}
+
+input::placeholder {
+  font-weight: 500;
+}
+
+.url-container,
+.slug-container {
+  display: flex;
+  flex-direction: column;
+  margin: 24px 0px;
+}
+
+button {
+  height: 48px;
+  width: 128px;
+  border-radius: 36px;
+  outline: none;
+  border-color: #fec92d;
+  border-width: 2px;
+  background-color: transparent;
+  color: #fec92d;
+  font-weight: 600;
+  font-size: 16px;
+  @apply shadow;
+}
+
+button:focus,
+button:active,
+button:hover {
+  outline: none;
+  cursor: pointer;
+  background-color: #fec92d;
+  color: #343434;
+}
+
+.res-text {
+  color: #fec92d;
+  font-weight: 700;
+  font-size: 24px;
+  margin-top: 24px;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: inherit;
+    text-decoration: inherit;
+    font-weight: inherit;
+}

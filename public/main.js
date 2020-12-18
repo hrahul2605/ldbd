@@ -28,12 +28,16 @@ async function handleSubmit(e, form) {
     if (content.message) {
       const errorText = document.createElement("p");
       errorText.innerHTML = content.message;
+      errorText.classList.add("res-text");
       container.appendChild(errorText);
     } else {
+      const linkContianer = document.createElement("p");
       const shortLink = document.createElement("a");
       shortLink.setAttribute("href", content.shortURL);
       shortLink.innerText = content.shortURL;
-      container.appendChild(shortLink);
+      linkContianer.classList.add("res-text");
+      linkContianer.append(shortLink);
+      container.appendChild(linkContianer);
     }
   } catch (error) {
     console.log(error);
