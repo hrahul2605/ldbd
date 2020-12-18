@@ -9,5 +9,20 @@
     <header>
       <h1>shurl - URL Shorten Service</h1>
     </header>
+    <main>
+      <form id="form">
+        <label for="url">URL</label>
+        <input name="url" id="url" placeholder="http://www.xyz.com" />
+        <label for="slug">Slug</label>
+        <input
+          name="slug"
+          id="slug"
+          placeholder="Enter Custom Slug ( Optional )"
+        />
+        <button type="submit">Submit</button>
+      </form>
+      <div id="container"></div>
+    </main>
   </body>
+  <script src="main.js"></script>
 </html>
