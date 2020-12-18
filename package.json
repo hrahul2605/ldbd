@@ -1,0 +1,28 @@
+{
+  "name": "shurl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hrahul2605/shurl.git"
+  },
+  "author": "hrahul2605",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hrahul2605/shurl/issues"
+  },
+  "homepage": "https://github.com/hrahul2605/shurl#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.11.8",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
