@@ -1,5 +1,5 @@
 {
-  "name": "shurl",
+  "name": "ldbd",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hrahul2605/shurl.git"
+    "url": "git+https://github.com/hrahul2605/ldbd.git"
   },
   "author": "hrahul2605",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hrahul2605/shurl/issues"
+    "url": "https://github.com/hrahul2605/ldbd/issues"
   },
-  "homepage": "https://github.com/hrahul2605/shurl#readme",
+  "homepage": "https://github.com/hrahul2605/ldbd#readme",
   "dependencies": {
     "dotenv": "^8.2.0",
     "express": "^4.17.1",

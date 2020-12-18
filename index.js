@@ -20,7 +20,7 @@ const bodySchema = Joi.object({
 const PORT = process.env.PORT || 3000;
 
 // MONGO_URI
-const MONGO_URI = process.env.MONGO_URI || "mongodb://localhost:27017/shurl";
+const MONGO_URI = process.env.MONGO_URI || "mongodb://localhost:27017/ldbd";
 
 // DOMAIN NAME
 const BASE_URL = process.env.BASE_URL || `http://localhost:${PORT}/`;
