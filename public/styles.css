@@ -95,7 +95,22 @@ a:link,
 a:visited,
 a:hover,
 a:active {
-    color: inherit;
-    text-decoration: inherit;
-    font-weight: inherit;
+  color: inherit;
+  text-decoration: inherit;
+  font-weight: inherit;
+}
+
+.caption-container {
+  margin-top: 12px;
+}
+
+.caption {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.caption-title {
+  font-weight: 300;
+  margin-right: 4px;
 }
